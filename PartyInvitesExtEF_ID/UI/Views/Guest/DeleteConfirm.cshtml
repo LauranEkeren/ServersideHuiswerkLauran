@@ -1,0 +1,11 @@
+﻿@model GuestResponse
+
+@*<partial name="_GuestCard"/>*@
+<div>
+    <p>Response for @Model.Name (@Model.Email) will be removed. Are you sure?</p>
+</div>
+<div>
+    <a asp-action="Delete" asp-route-id="@Model.Id">Yes, delete</a>
+    <a asp-action="Details" asp-route-id="@Model.Id">To details</a>
+    <a asp-action="List">Return to list</a>
+</div>

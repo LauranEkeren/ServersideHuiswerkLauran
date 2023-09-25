@@ -1,0 +1,20 @@
+﻿@model string
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+        <title>Birthday Calculator</title>
+    </head>
+
+    <body>
+        <div class="text-center m-2">
+            <h3> Today it is @Model</h3>
+        <a class="btn btn-primary" asp-action="BirthdayForm">Calculate days till my birthday</a>
+        </div>
+    </body>
+</html>

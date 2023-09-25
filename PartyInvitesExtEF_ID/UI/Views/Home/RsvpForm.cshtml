@@ -1,0 +1,38 @@
+﻿@model GuestResponse
+
+<h5 class="bg-primary text-white text-center m-2 p-2">RSVP</h5>
+<form asp-action="RsvpForm" method="post" class="m-2">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EmailValidation" class="form-label"></label>
+        <input asp-for="EmailValidation" class="form-control" />
+        <span asp-validation-for="EmailValidation"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Phone" class="form-label"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="WillAttent" class="form-label"></label>
+        <select asp-for="WillAttent" asp-items="@ViewBag.AttendanceChoices" class="form-control">
+        </select>
+        @*            <select asp-for="WillAttent" class="form-control">
+        <option value="">Choose an option</option>
+        <option value="true">Yes, I'll be there</option>
+        <option value="false">No, I can't come</option>
+        </select>*@
+        <span asp-validation-for="WillAttent"></span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit RSVP</button>
+</form>

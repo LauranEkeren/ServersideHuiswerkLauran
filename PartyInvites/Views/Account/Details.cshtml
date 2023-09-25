@@ -1,0 +1,19 @@
+﻿@model LoginViewModel
+
+<div class="form-group">
+    <label asp-for="Name"></label>
+    <input asp-for="Name" />
+</div>
+<div class="form-group">
+    <table>
+        <thead>
+            <tr>Claim</tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in User.Claims)
+            {
+                <tr><td>@claim.ToString()</td></tr>
+            }
+        </tbody>
+    </table>
+</div>

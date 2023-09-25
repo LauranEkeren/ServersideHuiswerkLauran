@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <title>Gongratulations</title>
+</head>
+
+<body>
+    <div class="text-center m-2">
+        <h1>@ViewBag.Name</h1>
+        <h3> @ViewBag.Days remainting till your birthday @ViewBag.Name</h3>
+        <a class="btn btn-primary" asp-action="Index">Home</a>
+    </div>
+</body>
+</html>

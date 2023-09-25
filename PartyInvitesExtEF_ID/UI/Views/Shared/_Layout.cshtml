@@ -1,0 +1,40 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PartyInvites</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <span>@UserManager.GetUserName(User)</span>
+        
+        <a class="link-primary" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Url.Action("Index", "Guest")">Login</a>
+        <a class="link-secondary" asp-controller="Account" asp-action="Logout">Logout</a>
+        <a class="link-secondary" asp-controller="Account" asp-action="Register">Register</a>
+    </header>
+    <div class="container">
+        <partial name="_CookieConsentPartial" />
+
+    </div>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    @RenderSection("bla", required: false)
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - PartyInvites - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

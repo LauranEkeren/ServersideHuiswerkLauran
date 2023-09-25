@@ -1,0 +1,14 @@
+﻿@model GuestListViewModel
+
+<h1>Attending guests</h1>
+<div>
+    <a class="btn btn-primary" asp-action="Create">Create new</a>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+    @foreach (var response in Model?.GuestResponses ?? Enumerable.Empty<GuestResponse>())
+    {
+        <partial name="_GuestCard" model="response" />
+    }
+
+</div>

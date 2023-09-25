@@ -1,0 +1,37 @@
+﻿@model GuestResponse
+<div class="col">
+    <div class="card pie-card">
+        <div class="card-body">
+            <h4 class="d-grid">
+                <a class="btn btn-primary"
+                   asp-controller="Guest"
+                   asp-action="Details"
+                   asp-route-id="@Model.Id">Details</a>
+            </h4>
+            <h4 class="d-grid">
+                <a class="btn btn-secondary"
+                   asp-controller="Guest"
+                   asp-action="Edit"
+                   asp-route-id="@Model.Id">Edit</a>
+            </h4>
+            <h4 class="d-grid">
+                <a class="btn btn-secondary"
+                   asp-controller="Guest"
+                   asp-action="DeleteConfirm"
+                   asp-route-id="@Model.Id">Delete</a>
+            </h4>
+
+            <div class="d-flex justify-content-between mt-2">
+                <h2 class="text-start">
+                    <a asp-controller="Guest"
+                       asp-action="Details"
+                       asp-route-id="@Model.Id"
+                       class="pie-link">@Model.Name</a>
+                </h2>
+                <h5 class="text-nowrap">
+                    @Model.Email
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>

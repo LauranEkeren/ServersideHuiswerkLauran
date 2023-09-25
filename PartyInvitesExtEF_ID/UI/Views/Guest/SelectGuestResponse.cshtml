@@ -1,0 +1,14 @@
+﻿@model GuestResponse
+
+<div>
+    <form asp-6action="Edit" method="post" class="m-2">
+        <div class="form-group">
+            <label asp-for="WillAttent" class="form-label"></label>
+            <select asp-for="WillAttent" asp-items="@ViewBag.GuestResponses" class="form-control">
+            </select>
+            <span asp-validation-for="WillAttent"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Save changes</button>
+    </form>
+
+</div>

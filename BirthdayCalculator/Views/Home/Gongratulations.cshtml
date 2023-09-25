@@ -1,0 +1,22 @@
+﻿@model string
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+        <title>Gongratulations</title>
+    </head>
+
+    <body>
+        <div class="text-center m-2">
+            <h1>@ViewBag.Name</h1>
+            <img src="~/images/Photo1.jpg" class="img" alt="My image" />
+            <h3> Gongratulations with your birthday! You are now @ViewBag.Year years old.</h3>
+            <a class="btn btn-primary" asp-action="Index">Home</a>
+        </div>
+    </body>
+</html>

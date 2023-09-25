@@ -1,0 +1,8 @@
+﻿@model GuestResponse
+<tr>
+    <td>@Model?.Name</td>
+    <td>@Model?.Email</td>
+    <td>@Model?.Phone</td>
+    <td><a asp-action="Edit" asp-route-id="@Model!.Id">Edit</a> </td>
+    <td><a asp-controller="Home" asp-action="Details" asp-route-index=1>View details</a></td>
+</tr>

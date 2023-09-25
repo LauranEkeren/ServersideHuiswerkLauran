@@ -1,0 +1,133 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UI
+build_property.RootNamespace = UI
+build_property.ProjectDir = C:\Users\laura\Documents\School\jaar 2 herkansing\serverside lessen\homework projects\PartyInvitesExtEF_ID\UI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\laura\Documents\School\jaar 2 herkansing\serverside lessen\homework projects\PartyInvitesExtEF_ID\UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Account/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Guest/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Guest/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcRGVsZXRlQ29uZmlybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Guest/Deleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcRGVsZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Guest/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Guest/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Guest/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Guest/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Guest/SelectGuestResponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcU2VsZWN0R3Vlc3RSZXNwb25zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Guest/_GuestCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcX0d1ZXN0Q2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Home/EditResponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0UmVzcG9uc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Home/ListResponses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0UmVzcG9uc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Home/ResponseDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNwb25zZURldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Home/RsvpForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSc3ZwRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Home/Thanks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGFua3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Home/_RowPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUm93UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Shared/_AltLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbHRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/laura/Documents/School/jaar 2 herkansing/serverside lessen/homework projects/PartyInvitesExtEF_ID/UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k1t0mrplc2

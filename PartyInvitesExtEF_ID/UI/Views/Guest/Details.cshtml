@@ -1,0 +1,19 @@
+﻿@model GuestResponse
+
+<h3 class="my-5">
+    @Model.Name
+</h3>
+
+
+<div class="row gx-5">
+    <div class="col-7">
+        <h4>@Model.Email</h4>
+
+        <h3 class="pull-right">@Model.Phone</h3>
+    </div>
+</div>
+<div>
+    <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+    <a class="btn btn-secondary" asp-action="DeleteConfirm" asp-route-id="@Model.Id">Delete</a>
+    <a class="btn btn-primary" asp-action="List">Back to overview</a>
+</div>

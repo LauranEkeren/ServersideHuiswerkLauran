@@ -1,0 +1,25 @@
+﻿@model ListResponsesViewModel
+@{
+    ViewBag.Title = "View guest responses";
+}
+
+<div class="text-center p-2">
+    <h2 class="text-center">Here is the list of people attending the party</h2>
+    <table class="table table-bordered table-striped table-sm">
+        <thead>
+            <tr><th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (GuestResponse r in Model?.GuestResponses ?? Enumerable.Empty<GuestResponse>())
+            {
+                <tr>
+                    <partial name="_RowPartial" model="r" />
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div page-model="@Model?.PagingInfo" page-action="ListResponses"></div>
+</div>
